@@ -8,6 +8,18 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Random User Info</h1>
+    <div id="userInfo">
+        <img id="userPhoto" src="" alt="User Photo">
+        <div id="userName"></div>
+    </div>
+    <div class="info-buttons">
+        <button data-attr="age" onclick="showInfo('age')">Age</button>
+        <button data-attr="email" onclick="showInfo('email')">Email</button>
+        <button data-attr="phone" onclick="showInfo('phone')">Phone</button>
+    </div>
+    <div id="additionalInfo"><strong>Additional Info:</strong> <span id="infoDisplay"></span></div>
+    <button id="getUser" onclick="getUser()">Get New User</button>
     <script type="text/javascript" src="./script.js">
 </script>
 

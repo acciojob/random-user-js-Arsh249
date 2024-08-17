@@ -1,2 +1,28 @@
-
-/* Your CSS Code here. */
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #userPhoto {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        #userName {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .info-buttons {
+            margin: 20px 0;
+        }
+        .info-buttons button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #additionalInfo {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #555;
+        }
